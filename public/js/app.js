@@ -1,6 +1,6 @@
 //const e = require("express")
 
-console.log('Clint side javascript file is loaded')
+//console.log('Clint side javascript file is loaded')
 /*************fetch the puzzle
 fetch('https://puzzle.mead.io/puzzle').then((response) => {
     response.json().then((data) => {
@@ -53,6 +53,7 @@ weatherForm.addEventListener('submit', (e) => {
     messageTwo.textContent = ''
 
     fetch('http://localhost:3000/weather?address=' + location).then((response) => {
+        
         response.json().then((data) => {
             if (data.error) {
                 //messageOne.textContent = data.error
